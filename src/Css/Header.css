@@ -1,0 +1,82 @@
+/* General Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #ff0000, #00ffff); /* Gradient Background */
+  color: white;
+}
+
+/* Logo Styling */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+  background: rgba(255, 255, 255, 0.2); /* Lighten the background on hover */
+}
+
+/* Highlighted Link Styling (for "Book Now" button) */
+.navbar .btn {
+  background: black; /* Highlighted background */
+  border-radius: 15px 0px 0px 15px; /* Rounded corners */
+  color: white; /* White text */
+}
+
+.navbar .btn:hover {
+  background: white; /* White background on hover */
+  color: black; /* Black text on hover */
+}
+
+/* Menu Icon Styling (for mobile) */
+.menu-icon {
+  display: none; /* Hidden by default for desktop */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    display: ${isOpen ? 'block' : 'none'};
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ff0000, #00ffff); /* Gradient Background */
+    padding: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .navbar a {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .navbar a:last-child {
+    border-bottom: none;
+  }
+}

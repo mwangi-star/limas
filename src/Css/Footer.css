@@ -1,0 +1,48 @@
+.footer {
+    background-color: #eaeded ;
+    color: black;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer .box {
+    flex: 1 1 22rem;
+    background-color:#eaeded;
+}
+
+.footer .box h3 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.footer .box a {
+    display: block;
+    font-size: 1.6rem;
+    color: var(black);
+    margin-bottom: 1rem;
+    transition: color 0.3s;
+}
+
+.footer .box a:hover {
+    color: black;
+}
+
+.footer .credit {
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    color: black;
+}
+
+.footer .credit span {
+    color: var(--primary);
+}
+
+

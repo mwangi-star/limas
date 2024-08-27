@@ -1,0 +1,103 @@
+/* Gallery.css */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center items horizontally */
+}
+
+.gallery .slide {
+  height: 45rem;
+  position: relative;
+  overflow: hidden;
+  margin: 1px;
+  display: flex; /* Ensure the content inside can be centered */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+.gallery .slide img {
+  height: 300px;
+  width: 350px;
+  object-fit: cover;
+}
+
+.gallery .slide .icon {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.gallery .slide .icon i {
+  font-size: 6rem;
+  color: var(--white);
+}
+
+.gallery .slide:hover .icon {
+  display: flex;
+}
+
+/* For medium screens (Tablets and small desktops) */
+@media (max-width: 992px) {
+  .gallery-container {
+    padding: 0 10px; /* Further reduced padding */
+  }
+  .gallery .slide {
+    height: 35rem;
+  }
+
+  .gallery .slide img {
+    height: 250px;
+    width: 290px;
+  }
+
+  .gallery .slide .icon i {
+    font-size: 4.5rem;
+  }
+}
+
+/* For small screens (Large phones and small tablets) */
+@media (max-width: 768px) {
+  .gallery-container {
+    padding: 0 5px; /* Minimal padding for small screens */
+  }
+  .gallery .slide {
+    height: 30rem;
+  }
+
+  .gallery .slide img {
+    height: 220px;
+    width: 260px;
+  }
+
+  .gallery .slide .icon i {
+    font-size: 4rem;
+  }
+}
+
+/* For extra small screens (Phones) */
+@media (max-width: 576px) {
+  .gallery-container {
+    padding: 0 2px; /* Almost no padding for very small screens */
+  }
+  .gallery .slide {
+    height: 25rem;
+    margin: 0.5rem; /* Adjust margin to ensure spacing */
+  }
+
+  .gallery .slide img {
+    height: 310px;
+    width: auto; /* Allow width to adjust automatically */
+  }
+
+  .gallery .slide .icon i {
+    font-size: 3.5rem;
+  }
+}

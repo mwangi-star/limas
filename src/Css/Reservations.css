@@ -1,0 +1,71 @@
+.reservation {
+    text-align: center;
+}
+
+.reservation .heading {
+    font-size: 3.5rem;
+    color: var(--primary);
+    margin-bottom: 2rem;
+    
+}
+
+.reservation .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 2rem;
+    color: black;
+}
+
+.reservation .box {
+    text-align: left;
+    background-color: rgb(188, 210, 214);
+    
+    
+}
+
+.reservation .box p {
+    font-size: 1.6rem;
+    color: var(--gray);
+    margin-bottom: 1rem;
+ 
+}
+
+.reservation .box form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+   
+}
+
+.reservation .box form .inputBox {
+    flex: 1 1 45%;
+     background: black;
+}
+
+.reservation .box form .inputBox span {
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: var(--black);
+}
+
+.reservation .box form .inputBox input, .reservation .box form .inputBox select {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: black;
+    background: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.reservation .box form .inputBox input[type="submit"] {
+    background: var(--primary);
+    color: var(--white);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.reservation .box form .inputBox input[type="submit"]:hover {
+    background: var(--secondary);
+}
