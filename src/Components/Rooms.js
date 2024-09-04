@@ -67,7 +67,8 @@ function Rooms() {
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star-half-alt"></i>
               </div>
-              <a href="#" className="btn">Book Now</a>
+              <button className="btn">Book Now</button>
+
             </div>
           </div>
         ))}

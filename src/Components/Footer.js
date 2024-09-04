@@ -14,17 +14,25 @@ function Footer() {
         </div>
         <div className="box">
           <h3>quick links</h3>
-          <a href="/home"><i className="fas fa-arrow-right"></i> home</a>
-          <a href="/about"><i className="fas fa-arrow-right"></i> about</a>
-          <a href="/rooms"><i className="fas fa-arrow-right"></i> rooms</a>
-          <a href="/gallery"><i className="fas fa-arrow-right"></i> gallery</a>
-          <a href="/reservation"><i className="fas fa-arrow-right"></i> reservation</a>
+          <a href="/home" aria-label="Home">
+            <i className="fas fa-arrow-right"></i> Home
+          </a>
+          <a href="/about"><i className="fas fa-arrow-right"></i> About</a>
+          <a href="/rooms"><i className="fas fa-arrow-right"></i> Rooms</a>
+          <a href="/gallery"><i className="fas fa-arrow-right"></i> Gallery</a>
+          <a href="/reservation"><i className="fas fa-arrow-right"></i> Reservation</a>
         </div>
       </div>
       <div className="share">
-        <a href="https://www.facebook.com/share/g/VrGVu3EVwNYwf6Kt/ " className="fab fa-facebook-f" target="_blank" rel="noopener noreferrer"></a>
-        <a href="https://instagram.com" className="fab fa-instagram" target="_blank" rel="noopener noreferrer"></a>
-        <a href="https://twitter.com" className="fab fa-twitter" target="_blank" rel="noopener noreferrer"></a>
+      <a 
+  href="https://www.facebook.com/share/g/VrGVu3EVwNYwf6Kt/" 
+  className="fab fa-facebook-f" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  aria-label="Share on Facebook"
+></a>
+
+        
       </div>
       <div className="credit">&copy; copyright @ 2024.By Msambweni web developers</div>
     </section>

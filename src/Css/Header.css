@@ -56,7 +56,7 @@
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    display: ${isOpen ? 'block' : 'none'};
+    display: none; /* Default to none */
     position: absolute;
     top: 60px;
     left: 0;
@@ -64,6 +64,8 @@
     background: linear-gradient(to right, #ff0000, #00ffff); /* Gradient Background */
     padding: 10px;
   }
+
+
 
   .menu-icon {
     display: block;
