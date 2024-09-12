@@ -14,9 +14,8 @@ function Footer() {
         </div>
         <div className="box">
           <h3>quick links</h3>
-          <a href="/home" aria-label="Home">
-            <i className="fas fa-arrow-right"></i> Home
-          </a>
+          <a href="/home" aria-label="Home"><i className="fas fa-arrow-right"></i> Home</a>
+          
           <a href="/about"><i className="fas fa-arrow-right"></i> About</a>
           <a href="/rooms"><i className="fas fa-arrow-right"></i> Rooms</a>
           <a href="/gallery"><i className="fas fa-arrow-right"></i> Gallery</a>

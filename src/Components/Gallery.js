@@ -7,13 +7,14 @@ import '../Css/Gallery.css';
 import gallery7 from '../Assets/images/limagae.jpg';
 import gallery8 from '../Assets/images/keja 2.jpg';
 import gallery9 from '../Assets/images/njerooms.jpg';
-import gallery1 from '../Assets/images/backroomslimas.jpg';
+import gallery1 from '../Assets/images/menulimas.jpg';
+import gallery4 from '../Assets/images/food.jpg';
 import gallery10 from '../Assets/images/msaja.jpg';
 import gallery12 from '../Assets/images/club1.jpg';
 import gallery11 from '../Assets/images/limastents.jpg';
 import gallery2 from '../Assets/images/limasflowes.jpg';
 import gallery3 from '../Assets/images/limastent1.jpg';
-import gallery4 from '../Assets/images/food.jpg';
+
 import gallery5 from '../Assets/images/room1.jpg';
 import gallery6 from '../Assets/images/limasdecore.jpg';
 
@@ -69,6 +70,11 @@ function Gallery() {
         </SwiperSlide>
         <SwiperSlide className="slide">
           <div className="card">
+            <img src={gallery10} alt="Gallery ten" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="slide">
+          <div className="card">
             <img src={gallery5} alt="Gallery five" />
           </div>
         </SwiperSlide>
@@ -98,11 +104,7 @@ function Gallery() {
             <img src={gallery9} alt="Gallery nine" />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="slide">
-          <div className="card">
-            <img src={gallery10} alt="Gallery ten" />
-          </div>
-        </SwiperSlide>
+        
       </Swiper>
     </section>
   );

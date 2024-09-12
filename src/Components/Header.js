@@ -12,20 +12,25 @@ function Header() {
   return (
     <header className="header">
       <Link to="/" className="logo">
-        <i className="fas fa-hotel"></i> Club LIMAS
+        <i className="fas fa-hotel"></i> CLUB LIMAS
       </Link>
+
+      {/* Hamburger Menu Button */}
+      <div className="menu-icon" onClick={toggleMenu}>
+        <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'}`}></i>
+      </div>
+
+      {/* Navbar Links */}
       <nav className={`navbar ${isOpen ? 'open' : ''}`}>
         <Link to="/" onClick={toggleMenu}>Home</Link>
-        <Link to="/about" onClick={toggleMenu}>About</Link>
+       
         <Link to="/rooms" onClick={toggleMenu}>Rooms</Link>
         <Link to="/gallery" onClick={toggleMenu}>Gallery</Link>
         <Link to="/review" onClick={toggleMenu}>Review</Link>
-       
-        <Link to="/reservation" className="btn" onClick={toggleMenu}>Book Now</Link>
+        <Link to="/reservation" onClick={toggleMenu}>Reservation</Link>
+        <Link to="/about" onClick={toggleMenu}>About</Link>
+        <Link to="/contact-us" className="btn" onClick={toggleMenu}>Book Now</Link>
       </nav>
-      <div id="menu-btn" className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
-        <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'}`}></i>
-      </div>
     </header>
   );
 }

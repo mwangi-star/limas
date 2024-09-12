@@ -73,8 +73,8 @@
   }
 
   .gallery .slide img {
-    height: 220px;
-    width: 260px;
+    height: 320px;
+    width: 460px;
   }
 
   .gallery .slide .icon i {
@@ -93,8 +93,8 @@
   }
 
   .gallery .slide img {
-    height: 310px;
-    width: auto; /* Allow width to adjust automatically */
+    height: 410px;
+    width: 250px; /* Allow width to adjust automatically */
   }
 
   .gallery .slide .icon i {

@@ -13,10 +13,10 @@ import ContactForm from './ContactForm';
 
 function Home() {
   const slides = [
-    { image: picha, caption: "Best rooms in town" },
-    { image: slide1, caption: "Best rooms in town" },
-    { image: slide2, caption: "Rooms equipped with TV and free wifi" },
-    { image: slide4, caption: "Variety of drinks available" },
+    { image: picha, caption: "" },
+    { image: slide1, caption: "" },
+    { image: slide2, caption: "" },
+    { image: slide4, caption: "" },
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);

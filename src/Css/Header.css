@@ -6,6 +6,7 @@
   padding: 10px 20px;
   background: linear-gradient(to right, #ff0000, #00ffff); /* Gradient Background */
   color: white;
+  position: relative; /* Ensure proper positioning for child elements */
 }
 
 /* Logo Styling */
@@ -21,8 +22,10 @@
 .navbar {
   display: flex;
   gap: 10px;
+  z-index: 10; /* Ensure navbar appears above other elements */
 }
 
+/* Navbar Links Styling */
 .navbar a {
   color: white;
   text-decoration: none;
@@ -50,27 +53,33 @@
 /* Menu Icon Styling (for mobile) */
 .menu-icon {
   display: none; /* Hidden by default for desktop */
+  z-index: 11; /* Ensure menu icon is above other elements */
 }
 
-/* Responsive Design */
+/* Responsive Design - Media Query for Small Screens */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    display: none; /* Default to none */
+    display: none; /* Default to hidden */
     position: absolute;
     top: 60px;
     left: 0;
     right: 0;
     background: linear-gradient(to right, #ff0000, #00ffff); /* Gradient Background */
     padding: 10px;
+    z-index: 10; /* Ensure navbar is above other content */
   }
 
-
+  /* Display the navbar when it's in an open state (toggled by the hamburger menu) */
+  .navbar.open {
+    display: flex; /* Show the navbar */
+  }
 
   .menu-icon {
-    display: block;
+    display: block; /* Show the hamburger menu on small screens */
     font-size: 24px;
     cursor: pointer;
+    z-index: 11; /* Ensure menu icon is above other elements */
   }
 
   .navbar a {

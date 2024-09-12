@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../Css/Rooms.css';
 import room1image from '../Assets/images/keja 22k.jpg';
 import room2image from '../Assets/images/keja 2.jpg';
@@ -67,7 +68,7 @@ function Rooms() {
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star-half-alt"></i>
               </div>
-              <button className="btn">Book Now</button>
+              <Link to="/contact-us" className="btn">Book Now</Link>
 
             </div>
           </div>
