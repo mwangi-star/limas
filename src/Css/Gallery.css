@@ -94,7 +94,7 @@
 
   .gallery .slide img {
     height: 410px;
-    width: 250px; /* Allow width to adjust automatically */
+    width: auto; /* Allow width to adjust automatically */
   }
 
   .gallery .slide .icon i {
