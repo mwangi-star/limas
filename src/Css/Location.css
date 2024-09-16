@@ -5,7 +5,7 @@
   
   .location-image {
     width: 100%; /* Makes the image responsive */
-    height: 500px; /* Keeps the aspect ratio */
+    height: 300px; /* Keeps the aspect ratio */
     max-width: 1500px; /* Adjust the max-width if needed */
     margin: 0 auto;
     display: block;

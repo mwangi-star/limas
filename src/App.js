@@ -8,7 +8,7 @@ import Rooms from './Components/Rooms';
 import Gallery from './Components/Gallery';
 import Review from './Components/Review';
 import Location from './Components/Location';
-import Reservation from './Components/Reservation';
+
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 
@@ -24,7 +24,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/review" element={<Review />} />
         <Route path="/contact" element={<ContactForm />} />
-        <Route path="/reservation" element={<Reservation />} />
+        
       </Routes>
       <Location />
       <Footer />

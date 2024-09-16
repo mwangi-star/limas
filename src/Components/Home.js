@@ -8,7 +8,7 @@ import slide4 from '../Assets/images/limasdecore.jpg';
 import Rooms from './Rooms';
 import Gallery from './Gallery';
 import Review from './Review';
-import Reservation from './Reservation';
+
 import ContactForm from './ContactForm';
 
 function Home() {
@@ -61,7 +61,7 @@ function Home() {
 
       {/* Add the other sections below the carousel */}
       <Rooms />
-      <Reservation />
+      
       <Gallery />
       <Review />
       <ContactForm />

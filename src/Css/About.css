@@ -127,11 +127,14 @@
   .content h5 {
     font-size: 1rem;
     margin-left: auto;
+    font-size: 30px;
   }
 
   .content p {
     font-size: 12px;
     margin-left: auto;
+    font-size: 20px;
+
   }
 
   /* Center the content on mobile */

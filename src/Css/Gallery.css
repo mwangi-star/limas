@@ -88,12 +88,12 @@
     padding: 0 2px; /* Almost no padding for very small screens */
   }
   .gallery .slide {
-    height: 25rem;
+    height: 45rem;
     margin: 0.5rem; /* Adjust margin to ensure spacing */
   }
 
   .gallery .slide img {
-    height: 410px;
+    height: 500px;
     width: auto; /* Allow width to adjust automatically */
   }
 

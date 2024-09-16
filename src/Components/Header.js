@@ -27,7 +27,7 @@ function Header() {
         <Link to="/rooms" onClick={toggleMenu}>Rooms</Link>
         <Link to="/gallery" onClick={toggleMenu}>Gallery</Link>
         <Link to="/review" onClick={toggleMenu}>Review</Link>
-        <Link to="/reservation" onClick={toggleMenu}>Reservation</Link>
+        
         <Link to="/about" onClick={toggleMenu}>About</Link>
         <Link to="/contact-us" className="btn" onClick={toggleMenu}>Book Now</Link>
       </nav>

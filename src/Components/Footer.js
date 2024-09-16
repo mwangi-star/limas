@@ -19,7 +19,7 @@ function Footer() {
           <a href="/about"><i className="fas fa-arrow-right"></i> About</a>
           <a href="/rooms"><i className="fas fa-arrow-right"></i> Rooms</a>
           <a href="/gallery"><i className="fas fa-arrow-right"></i> Gallery</a>
-          <a href="/reservation"><i className="fas fa-arrow-right"></i> Reservation</a>
+          
         </div>
       </div>
       <div className="share">
