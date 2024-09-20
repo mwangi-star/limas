@@ -7,8 +7,10 @@ import '../Css/Gallery.css';
 import gallery7 from '../Assets/images/limagae.jpg';
 import gallery8 from '../Assets/images/keja 2.jpg';
 import gallery9 from '../Assets/images/njerooms.jpg';
-import gallery1 from '../Assets/images/menulimas.jpg';
+
+
 import gallery4 from '../Assets/images/food.jpg';
+import gallery13 from '../Assets/images/limasfood.jpeg';
 import gallery10 from '../Assets/images/msaja.jpg';
 import gallery12 from '../Assets/images/club1.jpg';
 import gallery11 from '../Assets/images/limastents.jpg';
@@ -48,11 +50,7 @@ function Gallery() {
             <img src={gallery7} alt="Gallery seven" />
           </div>
         </SwiperSlide>
-        <SwiperSlide className="slide">
-          <div className="card">
-            <img src={gallery1} alt="Gallery one" />
-          </div>
-        </SwiperSlide>
+        
         <SwiperSlide className="slide">
           <div className="card">
             <img src={gallery2} alt="Gallery two" />
@@ -75,6 +73,11 @@ function Gallery() {
         </SwiperSlide>
         <SwiperSlide className="slide">
           <div className="card">
+            <img src={gallery13} alt="thirteen" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="slide">
+          <div className="card">
             <img src={gallery5} alt="Gallery five" />
           </div>
         </SwiperSlide>
@@ -93,6 +96,7 @@ function Gallery() {
             <img src={gallery12} alt="twelve" />
           </div>
         </SwiperSlide>
+        
         
         <SwiperSlide className="slide">
           <div className="card">
