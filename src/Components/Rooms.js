@@ -12,37 +12,37 @@ function Rooms() {
   const rooms = [
     { 
       image: room1image, 
-      price: '2000ksh/night', 
+      
       title: 'Luxury Room', 
       description: 'Enjoy a relaxing stay in our Exclusive Room, featuring a cozy ambiance and all the modern amenities you need for a comfortable escape.' 
   },
   { 
       image: room2image, 
-      price: '2000ksh/night', 
+       
       title: 'Luxury Room', 
       description: 'Immerse yourself in luxury with our Luxury Room, offering elegant decor, high-end furnishings, and stunning views to make your stay unforgettable.' 
   },
   { 
       image: room3image, 
-      price: '1500ksh/night', 
+       
       title: 'Deluxe Room', 
       description: 'Our Deluxe Room combines sophistication and comfort, with spacious interiors and a plush king-sized bed, perfect for a premium experience.' 
   },
   { 
       image: room4image, 
-      price: '1500ksh/night', 
+     
       title: 'Deluxe Room', 
       description: 'Experience superior comfort in our Deluxe Room, featuring upscale amenities and a stylish design to enhance your stay with elegance and relaxation.' 
   },
   { 
       image: room5image, 
-      price: '1000ksh/night', 
+    
       title: 'Deluxe Room', 
       description: 'Indulge in our Deluxe Room with its exceptional comfort, modern decor, and thoughtful touches designed for an exquisite stay.' 
   },
   { 
       image: room6image, 
-      price: '1000ksh/night', 
+     
       title: 'Deluxe Room', 
       description: 'Relax in our Deluxe Room, where contemporary design meets plush comfort, offering a serene escape with all the amenities you desire.' 
   },
